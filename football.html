@@ -30,38 +30,165 @@
     <header class="page-header text-white text-center">
         <div class="container">
             <h1 class="h3 fw-bold mb-0">Football History</h1>
+            <p class="mb-0 mt-2 text-light-emphasis">Striker • Stourbridge FC • 2018 – Present</p>
         </div>
     </header>
 
     <main class="container my-5">
-        <section class="row justify-content-center">
+
+        <section class="row justify-content-center mb-4">
             <div class="col-lg-8">
-
-                <p class="text-muted mb-4">
-                    Alongside my studies and career in software engineering, football has been a long-standing part of my life. I play as a striker for Stourbridge, and have picked up several individual awards along the way.
+                <p class="text-muted">
+                    Alongside my studies and career in software engineering, football has been a long-standing part of my life. I've come through the Stourbridge youth setup, had a loan spell at Darlaston Town, and now play as a striker for Stourbridge's first team.
                 </p>
-
-                <div class="table-responsive">
-                    <table class="table table-clean align-middle">
-                        <thead>
-                            <tr>
-                                <th scope="col">Club</th>
-                                <th scope="col">Position</th>
-                                <th scope="col">Recognition</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="fw-semibold">Stourbridge</td>
-                                <td>Striker</td>
-                                <td>Multiple individual player awards</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
             </div>
         </section>
+
+        <!-- Stat Cards -->
+        <section class="row justify-content-center g-3 mb-5">
+            <div class="col-6 col-md-3">
+                <div class="card text-center border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <p class="stat-number mb-0">182</p>
+                        <p class="text-muted small mb-0">Appearances</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card text-center border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <p class="stat-number mb-0">114</p>
+                        <p class="text-muted small mb-0">Goals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card text-center border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <p class="stat-number mb-0">44</p>
+                        <p class="text-muted small mb-0">Assists</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card text-center border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <p class="stat-number mb-0">6</p>
+                        <p class="text-muted small mb-0">Individual Awards</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Season-by-season Accordion -->
+        <section class="row justify-content-center">
+            <div class="col-lg-8">
+                <h3 class="h5 fw-bold text-secondary mb-3">Season by Season</h3>
+
+                <div class="accordion" id="seasonAccordion">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#s1">
+                                2024/25 — Stourbridge FC (First Team)
+                            </button>
+                        </h2>
+                        <div id="s1" class="accordion-collapse collapse show" data-bs-parent="#seasonAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-2">32 appearances, 13 goals, 7 assists.</p>
+                                <span class="badge bg-primary">Current Season</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#s2">
+                                2023/24 — Stourbridge FC (First Team)
+                            </button>
+                        </h2>
+                        <div id="s2" class="accordion-collapse collapse" data-bs-parent="#seasonAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-2">30 appearances, 11 goals, 5 assists. First full season in the first team.</p>
+                                <span class="badge bg-success">Young Player of the Season</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#s3">
+                                2022/23 — Darlaston Town (Loan)
+                            </button>
+                        </h2>
+                        <div id="s3" class="accordion-collapse collapse" data-bs-parent="#seasonAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">28 appearances, 14 goals, 6 assists. Spent the season on loan gaining first-team senior experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#s4">
+                                2021/22 — Stourbridge U19
+                            </button>
+                        </h2>
+                        <div id="s4" class="accordion-collapse collapse" data-bs-parent="#seasonAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-2">26 appearances, 22 goals, 8 assists.</p>
+                                <span class="badge bg-success">Top Goalscorer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#s5">
+                                2020/21 — Stourbridge U19
+                            </button>
+                        </h2>
+                        <div id="s5" class="accordion-collapse collapse" data-bs-parent="#seasonAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-2">20 appearances, 16 goals, 5 assists.</p>
+                                <span class="badge bg-success">Top Goalscorer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#s6">
+                                2019/20 — Stourbridge U19
+                            </button>
+                        </h2>
+                        <div id="s6" class="accordion-collapse collapse" data-bs-parent="#seasonAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-2">24 appearances, 20 goals, 7 assists.</p>
+                                <span class="badge bg-success">Top Goalscorer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#s7">
+                                2018/19 — Stourbridge U16
+                            </button>
+                        </h2>
+                        <div id="s7" class="accordion-collapse collapse" data-bs-parent="#seasonAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-2">22 appearances, 18 goals, 6 assists.</p>
+                                <span class="badge bg-success me-1">Top Goalscorer</span>
+                                <span class="badge bg-warning text-dark">Player of the Season</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="bg-dark text-white text-center py-4">
